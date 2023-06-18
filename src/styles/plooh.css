@@ -101,8 +101,8 @@ h3 {
 }
 
 .main-img {
-    transform: translate3d(0px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
-    transform-style: preserve-3d; 
+    transform: translate3d(0px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
     will-change: transform;
     grid-row: span 4;
 }
@@ -113,10 +113,10 @@ h3 {
 }
 
 .claim-1 {
-    -webkit-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    -moz-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    -ms-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-    transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -webkit-transform: translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
 }
 
 .w-layout-grid {
@@ -142,7 +142,7 @@ h3 {
     grid-column-end: 1;
 }
 
-.heading-2 {
+.center-align {
     text-align: center;
 }
 
@@ -168,4 +168,58 @@ h3 {
     background-image: linear-gradient(180deg, #f99f3b, #fb1617);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 767px) {
+    .mycontain {
+        min-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .mycontain.content {
+        padding-top: 20px;
+    }
+
+    .w-layout-grid {
+        grid-template-areas:
+            "content1"
+            "content2";
+        grid-template-columns: 1fr;
+        /* Single column layout */
+    }
+
+    .item:nth-child(1) {
+        grid-area: content1;
+        /* Positioning the first item */
+    }
+
+    .item:nth-child(2) {
+        grid-area: content2;
+        /* Positioning the second item */
+    }
+
+    .feature-1 {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .feature-2 {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .feature-3 {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .feature-4 {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 18px;
+    }
 }

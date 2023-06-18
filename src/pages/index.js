@@ -21,16 +21,16 @@ export default function Home() {
 
       <div className="w-layout-grid">
         <img className="main-img image-2" src={Iphone12Mockup} width="350" alt="Plooh phone" sizes="(max-width: 479px) 89vw, 350px" loading="lazy" srcSet={`${Iphone12Mockup_p_500} 500w, ${Iphone12Mockup_p_800} 800w, ${Iphone12Mockup_p_1080} 1080w, ${Iphone12Mockup} 1117w`} />
-        <h3 className="grid-item feature-1 claim-1">A completely private and truly non-custodial
+        <h3 className="grid-item feature-1">A completely private and truly non-custodial
           wallet for cryptocurrencies, digital identities, and digital peer-to-peer transactions</h3>
-        <h3 className="feature-2 claim-1">Securely preserve your assets with our shared custody wallet, ensuring protection against malware while granting you full control over your assets</h3>
-        <h3 className="feature-3 claim-1">Our Social Asset Recovery provides peace of mind in case of lost or compromised access to your mobile device or crypto credentials</h3>
-        <h3 className="feature-4 claim-1">There is no more excuse to refrain from taking and maintaining control of your digital belongings</h3>
+        <h3 className="feature-2">Securely preserve your assets with our shared custody wallet, ensuring protection against malware while granting you full control over your assets</h3>
+        <h3 className="feature-3">Our Social Asset Recovery provides peace of mind in case of lost or compromised access to your mobile device or crypto credentials</h3>
+        <h3 className="feature-4">There is no more excuse to refrain from taking and maintaining control of your digital belongings</h3>
       </div>
 
       <div className="content--section--3 wf-section">
         <div className="mycontain content">
-          <h3 className="heading-2 white-1">What if the people you trust could assist in securing your digital assets?
+          <h3 className="feature-4 center-align">What if the people you trust could assist in securing your digital assets?
           </h3>
         </div>
       </div>
