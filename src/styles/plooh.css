@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #101731;
+}
+
+.gray {
+    color: #999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hero--section {
+    margin-top: 50px;
+}
+
+.mycontain {
+    position: relative;
+    z-index: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: auto;
+    min-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 20px 25px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.mycontain.hero {
+    min-height: 700px;
+    margin-top: 55px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.mycontain.content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 38px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.mycontain.trust {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 200;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.main-img {
+    transform: translate3d(0px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+    transform-style: preserve-3d; 
+    will-change: transform;
+    grid-row: span 4;
+}
+
+.image-2 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.claim-1 {
+    -webkit-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    transform:translate3d(80px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+}
+
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: none;
+}
+
+.teaser-grid {
+    -ms-grid-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.four-rows {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.heading-2 {
+    text-align: center;
+}
+
+.text-span-2 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#f99b39), to(#c3272d));
+    background-image: linear-gradient(90deg, #f99b39, #c3272d);
+}
+
+.text-span-2.clipped {
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.image-7 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.clipped {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f99f3b), to(#fb1617));
+    background-image: linear-gradient(180deg, #f99f3b, #fb1617);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
