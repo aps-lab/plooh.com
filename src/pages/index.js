@@ -17,7 +17,7 @@ export default function Home() {
         width="400" sizes="(max-width: 479px) 80vw, 400px"
         srcSet={`${websiteLogo_Mondial_p_500} 500w, ${websiteLogo_Mondial} 962w`}
         alt="" className="image-7" />
-      <h2 className="heading-2"><span className="text-span-2 clipped">Empowering Everyone's Digital Identity and Crypto Assets</span><br />‍</h2>
+      <h2 className="center-align"><span className="text-span-2 clipped">Empowering Everyone's Digital Identity and Crypto Assets</span><br />‍</h2>
 
       <div className="w-layout-grid">
         <img className="main-img image-2" src={Iphone12Mockup} width="350" alt="Plooh phone" sizes="(max-width: 479px) 89vw, 350px" loading="lazy" srcSet={`${Iphone12Mockup_p_500} 500w, ${Iphone12Mockup_p_800} 800w, ${Iphone12Mockup_p_1080} 1080w, ${Iphone12Mockup} 1117w`} />
